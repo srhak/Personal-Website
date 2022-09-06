@@ -1,0 +1,418 @@
+.header {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #7c98b3;
+    height: 25%;
+}
+
+#icons {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
+
+#profile {
+    border-radius: 50%;
+    border: 3px solid #536b78;
+    position: relative;
+    top: -2px;
+    margin-left: 7%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    position: relative;
+    color: whitesmoke;
+    margin-left: 7.5%;
+    letter-spacing: 5px;
+}
+
+body {
+    background-color: #accbe1;
+    background-image: url("headerBackground2.jpg");
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+hr {
+    background-color: #86969e;
+    border-color: #86969e;
+    margin: 0;
+}
+
+.landingArea {
+    float: left;
+    margin-left: 8%;
+    margin-right: 6%;
+    margin-top: 90px;
+}
+
+.landingAreaChild {
+    display: inline-block;
+}
+
+#aboutMe {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    transform: rotate(-90deg);
+    margin-right: -9%;
+    position: relative;
+    top: -150px;
+
+}
+
+#About {
+    width: 60%;
+    float: top;
+    margin-right: 0;
+    position: relative;
+    top: -92px;
+    margin-left: 3%;
+}
+
+#About p {
+    background-color: #cee5f2;
+    border-radius: 5%;
+    padding: 6%;
+    position: relative;
+    border: 2px solid #536b78;
+    font-size: 14px;
+}
+
+#hello {
+    position: relative;
+    left: -5%;
+    margin-bottom: 0px;
+    color: #536b78;
+}
+
+#menu {
+    width:25%;
+    border-radius: 5%;
+    border: 2px solid #536b78;
+    background-color: #cee5f2;
+    text-align: center;
+    position: relative;
+    top: -105px;
+    margin-right: 2%;
+    
+} 
+
+#name {
+    font-size: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #536b78;
+    letter-spacing: 5px;
+}
+
+.button {
+    width: 75%;
+    height: 50px;
+    background-color: #7c98b3;
+    border-radius: 7%;
+    border: 2px solid #536b78;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    position: relative;
+    top: -25px;
+}
+
+.button a{
+    position: relative;
+    top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#qualifications, #portfolio, #service {
+    height: 125px;
+    margin: 0px;
+    position:relative;
+    top: 30px;
+}
+
+.portfolioBody, .qualificationsBody, .serviceBody {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.qualificationsChild {
+    display: inline-block;
+}
+
+#monitor {
+    float: right;
+}
+
+#screen {
+    width: 622px;
+    height: 323px;
+    background-color: lightgrey;
+    position: absolute; 
+    left: 906px;
+    bottom: 242px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+#screen p {
+    font-size: 35px;
+}
+
+#screenTwo {
+    width: 622px;
+    height: 323px;
+    background-color: lightgrey;
+    position: absolute; 
+    left: 906px;
+    bottom: 242px;
+    padding: 20px;
+    font-size: 30px;
+    display: none;
+}
+
+#screenTwo p {
+    margin-top: -20px;
+}
+
+#screenThree {
+    width: 622px;
+    height: 323px;
+    background-color: lightgrey;
+    position: absolute; 
+    left: 906px;
+    bottom: 242px;
+    padding: 20px;
+    font-size: 19px;
+    display: none;
+}
+
+#screenThree p {
+    font-size: 20px;
+}
+
+#offScreen {
+    width: 622px;
+    height: 323px;
+    background-color: black;
+    position: absolute; 
+    left: 906px;
+    bottom: 242px;
+    padding: 20px;
+    font-size: 19px;
+    display: none;
+}
+
+button {
+    position:absolute;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.red {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    left: 1545px;
+    bottom: 208px;
+}
+
+.blue {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    left: 1521px;
+    bottom: 210px;
+}
+
+.green {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    left: 1498px;
+    bottom: 210px;
+}
+
+.portfolioChild, .serviceChild {
+    display: inline-block;
+    border-radius: 5%;
+    background-color: #cee5f2;
+    border: 2px solid #536b78;
+    height: 600px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#bigEvent {
+    width: 30%;
+    margin-right: 4%;
+}
+
+#bloodDrive {
+    width: 30%;
+    margin-right: 4%;
+}
+
+#buddyWalk {
+    width: 30%;
+}
+
+.serviceImages {
+    width: 75%;
+    height: 50%;
+    border-radius: 5%;
+    background-color: #7c98b3;
+    margin: auto;
+}
+
+.serviceDescription {
+    width: 65%;
+    height: 20%;
+    background-color: #7c98b3;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom:8%;
+}
+
+.serviceDescription a {
+    font-size: 14px;
+}
+
+#bigEvent img {
+    margin-top: 15%;
+}
+
+#bloodDrive img {
+    margin-top: 10%;
+    border-radius: 7%;
+}
+
+#buddyWalk img {
+    margin-top: 3%;
+    border-radius: 7%;
+}
+
+#completedWorks {
+    width: 45%;
+    position: relative;
+    top: -5px;
+}
+
+#completedWorks img {
+    border-radius: 7.5%;
+    position: relative;
+    padding: 10px;
+}
+
+#currentWorks {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    top: -9px;
+}
+
+#currentWorks img {
+    border-radius: 7.5%;
+    position: relative;
+    padding: 10px;
+}
+
+#futureProjects {
+    width: 24%;
+    position: relative;
+    top: -94px;
+}
+
+.completedPreview {
+    display: inline-block;
+    margin: 2.5%;
+    width: 275px;
+    height: 250px;
+    border-radius: 5%;
+    background-color: #7c98b3;
+}
+
+.currentPreview {
+    display: inline-block;
+    margin: 2.5%;
+    width: 275px;
+    height: 250px;
+    border-radius: 5%;
+    background-color: #7c98b3;
+    margin-bottom: 5%;
+}
+
+.completedGithub {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.completedDescription {
+    display: inline-block;
+    margin: 2.5%;
+    width: 243px;
+    height: 143px;
+    border-radius: 5%;
+    background-color: #7c98b3;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.currentDescription {
+    display: inline-block;
+    margin: 2.5%;
+    margin-top: 5%;
+    width: 243px;
+    height: 148px;
+    border-radius: 5%;
+    background-color: #7c98b3;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.futureDescription {
+    margin: 7%;
+    background-color: #7c98b3;
+    padding: 2.5%;
+    border-radius: 5%;
+    font-size: 18px;
+    padding: 25px;
+    position: relative;
+    top: 3%;
+    text-align: center;
+}
+
+#recipeApp {
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+}
+

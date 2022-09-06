@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualifications</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1 id="qualifications">QUALIFICATIONS</h1>
+    </div>
+    <hr>
+    <div class="qualificationsBody">
+        <iframe class="qualificationsChild" id="resume" src="Resume.pdf" width="650px" height="625px" alt="Photo_of_Resume"></iframe>
+        <img class="qualificationsChild" id="monitor" src="monitor.png" alt="monitorPic">
+        <article id="screen">
+            <h2 id="screenTitle">
+                Controls
+            </h2>
+            <p id="screenContent">
+                Red = Power <br> Blue = Skills <br> Green = Areas of Interest
+            </p>
+        </article>
+        <article id="screenTwo">
+            <h2 id="screenTitle">
+                Skills
+            </h2>
+            <p id="screenContent">
+                <ul>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML, CSS, JavaScript 
+                        <br>&emsp I learned these skills through 
+                        <a href="https://www.freecodecamp.org/">freeCodeCamp!</a>
+                    </li>
+                </ul>
+            </p>
+        </article>
+        <article id="screenThree">
+            <h2 id="screenTitle">
+                Areas of Interest
+            </h2>
+            <p id="screenContent">
+                I am currently interested in the following:
+                <ul>
+                    <li>Frontend/Web Development: I enjoy seeing users directly interact with software that I've worked on</li>
+                    <li>Cybersecurity: I enjoy what I've learned so far from Cybersecurity club, and I would love to expand my knowledge in this area</li>
+                    <li>Artificial Intelligence: After taking apart in an introductory AI program, I am even more fascinated with the capitality and potential of machines.</li>
+                </ul>
+            </p>
+        </article> 
+        <article id="offScreen"></article>
+        <div>
+            <button onclick="screenChange('red')" class="red"></button>
+            <button onclick="screenChange('blue')" class="blue"></button>
+            <button onclick="screenChange('green')" class="green"></button>
+        </div>
+    </div>
+</body>
+</html>
