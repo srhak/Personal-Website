@@ -1,5 +1,5 @@
 .header {
-    background: url(skyline2.png) no-repeat;
+    background: url(skyline_sharpened.png) no-repeat;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -42,6 +42,13 @@
     border-radius: 1vw;
     border: 1px solid black;
     margin-bottom: 1vh;
+}
+
+.header2 #themeSwitch {
+    position: relative;
+    top: 16vh;
+    width: 7vw;
+    left: 2vw;
 }
 
 #profile {
@@ -214,19 +221,20 @@ a {
     writing-mode: vertical-lr;
     color: whitesmoke;
     font-weight: normal;
-    font-size: 350%;
-    margin-top: 15vh;
+    font-size: 325%;
+    margin-top: 18.5vh;
     margin-left: auto;
     margin-right: auto;
 }
 
-#service, #portfolio {
+#service {
     font-size: 550%;
-    margin-top: 20vh;
+    margin-top: 22vh;
 }
 
 #portfolio {
-    margin-top: 15vh;
+    font-size: 500%;
+    margin-top: 19vh;
 }
 
 .qualificationsBody, .serviceBody, .portfolioBody {

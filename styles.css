@@ -7,23 +7,32 @@
 
 #back {
     height: 125px;
-    margin-left: 0;
-    width: 25%;
+    margin: 0;
+    width: 40vw;
     position: absolute;
+    text-align: left;
+    left: 5vw;
+    top: 4%;
 }
 
 #back p {
-    color: whitesmoke;
+    color: #536b78;
+    font-weight: normal;
     position: relative;
-    top: -13px;
-    left: 90px;
+    top: -15px;
     letter-spacing: 1px;
-    font-size: 20px;
-    padding-right: 15px;
+    font-size: 1vw;
+    text-align: center;
 }
 
 .backChild {
+    width: 8vw;
+    height: 3vh;
     display: inline-block;
+    background-color: #accbe1;
+    border-radius: .5vw;
+    border: 2px solid #536b78;
+    margin-bottom: 1vh;
 }
 
 #back a {
@@ -33,6 +42,16 @@
 .headerChild {
     position: relative;
     display: inline-block;
+    left: -2vw;
+}
+
+.header2 #themeSwitch {
+    position: relative;
+    width: 7vw;
+    top: 17px;
+    left: 49vw;;
+    border: 2px solid #536b78;
+    border-radius: .5vw;
 }
 
 #themeSwitch {
@@ -41,6 +60,7 @@
     width: 125px;
     height: 35px;
     border-radius: 10%;
+    border: 2px solid #536b78;
     top: -65px;
 }
 
@@ -53,7 +73,7 @@
     width: 60px;
     height: 200px;
     position: relative;
-    left: 10px;
+    left: -1.;
 }
 
 #icons img {
