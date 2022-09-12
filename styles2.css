@@ -425,6 +425,7 @@ a {
 
 .completedPreview img, .completedDescription {
     width: 15vw;
+    height: 28vh;
     border: 1vw solid lightgrey;
     border-radius: 2%;
 }
@@ -479,11 +480,11 @@ a {
     color: black;
     font-size: .85vw;
     background-color: lightgrey;
-    height: 11.8vw;
+    height: 23vh;
     margin-top: 0px;
     position: relative;
     left: 23vw;
-    top: -15.65vw
+    top: -30.75vh;
 
 }
 
