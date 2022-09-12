@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" id="CSSLink" rel="stylesheet"/>
+    <script src="myScript.js"></script>
 </head>
 <body>
-    <div class="header">
+    <div class="header2">
+        <h1 id="back">
+            <a class="backChild" href="index.html">
+                <p>About</p>
+            </a>
+            <a class="backChild" href="qualifications.html">
+                <p>Qualifications</p>
+            </a>
+            <a class="backChild" href="service.html">
+                <p>Service</p>
+            </a>
+        </h1>
         <h1 id="portfolio">PORTFOLIO</h1>
     </div>
     <hr>
@@ -34,7 +46,9 @@
             </h2>
         </div>
         <div id="currentWorks" class="portfolioChild">
-            <h2>Current Works</h2>
+            <div class="subtitle">
+                <h2>Current Works</h2>
+            </div>
             <h2 class="currentPreview">
                 <img src="websitePreview.png">
             </h2>
@@ -46,7 +60,9 @@
             </h2>
         </div>
         <div id="futureProjects" class="portfolioChild">
-            <h2>Future Projects</h2>
+            <div class="subtitle">
+                <h2>Future Projects</h2>
+            </div>
             <h2 class="futureDescription">
                 Food Recipe App
                 <p id="recipeApp">

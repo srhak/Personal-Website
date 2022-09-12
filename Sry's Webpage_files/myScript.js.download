@@ -25,6 +25,14 @@ function screenChange(color) {
 }
 
 function switchCSS() {
+    // var theme = document.getElementById("CSSLink");
+
+    // if (localStorage.getItem("themeKey") == "style2.css") {
+    //     localStorage.setItem("themeKey", "style.css");
+    // } else {
+    //     localStorage.setItem("themeKey", "style2.css");
+    // }
+
     console.log('button pressed', )
     if (localStorage.currentTheme == null) {
         localStorage.currentTheme = "styles2.css";
@@ -36,10 +44,16 @@ function switchCSS() {
     }
 
     updateTheme();
+
+    // theme.setAttribute("href", localStorage.getItem("themeKey"));
+    // if (theme.getAttribute("href") == "styles.css")
+    //     theme.setAttribute("href", "styles2.css");
+    // else
+    //     theme.setAttribute("href", "styles.css");
+        
 }
 
 updateTheme();
-
 function updateTheme() {
     var theme = document.getElementById("CSSLink");
         if (localStorage.currentTheme == "styles.css") {

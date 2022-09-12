@@ -1,0 +1,508 @@
+.header {
+    background: url(skyline2.png) no-repeat;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 80%;
+    position: absolute;
+    text-align: center;
+}
+
+.headerChild {
+    position: relative;
+}
+
+#back {
+    height: 125px;
+    margin-left: 1vw;
+    left: 0px;
+    position: absolute;
+    top: 2vh;
+    font-size: .75vw;
+}
+
+#back a {
+    color: whitesmoke;
+    position: relative;
+    top: -4vh;
+    display: block;
+    width: 6vw;
+    left: 2.5vw;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#arrow {
+    width: 2vw;
+}
+
+#profile {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    bottom: -50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#themeSwitch {
+    background-color: whitesmoke;
+    color: black;
+    width: 125px;
+    height: 35px;
+    border-radius: 10%;
+    border-color: white;
+    top: 364px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#name2 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: Arial;
+    position: relative;
+    top: 60px;
+}
+
+#icons {
+    list-style: none;
+    position: relative;
+    bottom: -25px;
+    align-items: center;
+}
+
+#icons img {
+    width: 50px;
+}
+
+#icon2 {
+    border-radius: 50%;
+}
+
+#name1, #hello, #monitor, .red, .blue, .green, #screen, #screenTwo, #screenThree, hr {
+    display: none;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    display: block;
+}
+
+#hand {
+    width: 35%;
+    position: relative;
+    top: 400px;
+}
+
+.landingArea {
+    width: 100%;
+    height: 85vh;
+    display: block;
+    position: absolute;
+    top: 80%;
+}
+
+#aboutText {
+    width: 55%;
+    float: right;
+    margin-right: 5%;
+    position: relative;
+    top: -250px;
+    font-size: 15px;
+    border-radius: 1%;
+}
+
+#aboutText p {
+    background-color: #484f5d;
+    border-radius: 2%;
+    padding: 5%;
+    position: relative;
+    border: 2px solid black;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#aboutMe {
+    font-size: 40px;
+    position: relative;
+    left: 40%;
+    top: -250px;
+}
+
+#hello2 {
+    font-size: 20px;
+}
+
+#serviceButton, #qualificationsButton, #portfolioButton {
+    background-color: #7d6167;
+    width: 17%;
+    height: 60px;
+    position: absolute;
+    left: 12%;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid black;
+    margin-top: 7%;
+    top: 0;
+}
+
+a {
+    color: whitesmoke;
+}
+
+#qualificationsButton {
+    margin-top: 12%;
+}
+
+#portfolioButton {
+    margin-top: 17%;
+}
+
+#serviceButton a{
+    font-size: 45px;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+#portfolioButton a{
+    font-size: 40px;
+    text-decoration: none;
+    position: relative;
+    top: 7.5px;
+}
+
+#qualificationsButton a{
+    font-size: 30px;
+    text-decoration: none;
+    vertical-align: center;
+    position: relative;
+    top: 12px;
+}
+
+.header2 {
+    height: 100vh;
+    width: 11vw;
+    background-color: #7d6167;
+    border-right: 3px solid black;
+    position: absolute;
+    top: 0;
+}
+
+#qualifications, #service, #portfolio {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 400%;
+    margin-top: 6.5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#service, #portfolio {
+    font-size: 550%;
+    margin-top: 17vh;
+}
+
+#portfolio {
+    margin-top: 8vh;
+}
+
+.qualificationsBody, .serviceBody, .portfolioBody {
+    top: 0;
+    position: absolute;
+    left: 11vw;
+    width: 89vw;
+    height: 100vh;
+}
+
+.qualificationsChild {
+    position: relative;
+    display: inline-block;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#technicalBody {
+    width: 44vw;
+    position: relative;
+    color: black;
+    margin-top: 7vh;
+}
+
+#technicalBody h1 {
+    font-size: 25px;
+    position: relative;
+    top: 2vh;
+}
+
+#techSkills, #areasOfInterest {
+    width: 37vw;
+    height: 35vh;
+    margin-bottom: 5vh;
+    margin-left: 7vw;
+}
+
+#techSkills {
+    font-size: 20px;
+}
+
+#interestContents {
+    font-size: 17px;
+}
+
+#skillContents, #interestContents {
+    background-color: #484f5d;
+    height: 70%;
+    padding: 5%;
+    color: whitesmoke;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+#resumeBody {
+    position: absolute;
+    display: block;
+    text-align: center;
+    max-width: 44vw;
+    right: 7.5vw;
+    margin-top: 6vh;
+}
+
+#resume {
+    height: 100%;
+    position: relative;
+    margin-bottom: 3%;
+    border: 4px solid #484f5d;
+}
+
+#resumeLink {
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+
+.serviceChild {
+    width: 75vw;
+    height: 30vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 2vh;
+}
+
+.subtitle {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    position: absolute;
+    height: inherit;
+    width: 7vw;
+    display: block;
+    font-size: 20px;
+}
+
+.subtitle h2 {
+    margin-left: 1.5vw;
+    margin-top: 4.5vh;
+}
+
+#bigEventSubtitle {
+    margin-top: 0;
+}
+
+.serviceChild img {
+    height: 90%;
+    max-width: 90%;
+    position: relative;
+    top: 5%;
+    left: 1.1vw;
+    border-radius: 2%;
+}
+
+#buddyWalk img {
+    left: .82vw;
+}
+
+.serviceImages {
+    height: 25vh;
+    width: 17vw;
+    position: relative;
+    left: 7vw;
+    top: 1vh;
+    background-color: lightgrey;
+    border-radius: 2%;
+}
+
+.serviceDescription {
+    border-radius: 2%;
+    position: relative;
+    top: -26.1vh;
+    left: 26vw;
+    width: 47vw;
+    height: 25vh;
+    font-weight: normal;
+}
+
+.serviceDescription p {
+    padding: 3vh;
+    color: black;
+    background-color: lightgrey;
+    width: 27vw;
+    height: 19vh;
+    font-size: 18px;
+    border-radius: 2%;
+}
+
+.serviceDescription a {
+    display: block;
+    padding-top: 5.5vh;
+    padding-bottom: 3vh;
+    width: 16.5vw;
+    height: 14vh;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -26.8vh;
+    left: 31.25vw;
+}
+
+#bloodDrive a {
+    width: 15vw;
+    left: 31.75vw;
+}
+
+#bigEvent, #bloodDrive, #buddyWalk {
+   font-size: 10px;
+   color: whitesmoke;
+}
+
+.portfolioChild {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#completedWorks {
+    width: 40vw;
+    height: 87vh;
+    margin-left: 3vw;
+    margin-top: 6vh;
+}
+
+.completedPreview {
+    display: inline;
+}
+
+.completedPreview img, .completedDescription {
+    width: 15vw;
+    border: 1vw solid lightgrey;
+    border-radius: 2%;
+}
+
+.completedGithub {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1vw;
+}
+
+.completedDescription {
+    background-color: lightgrey;
+    height: 30vh;
+    font-size: .93vw;
+    color: black;
+    display: inline-block;
+    margin-top: 3vh;
+}
+
+#currentWorks, #futureProjects {
+    width: 40vw;
+    position: absolute;
+    height: 41.5vh;
+}
+
+#currentWorks {
+    margin-top: 6vh;
+    margin-left: 2vw;
+}
+
+.currentPreview {
+    width: 15vw;
+    position: relative;
+    left: 7vw;
+    margin-bottom: 0px;
+}
+
+.currentPreview img, .currentDescription {
+    width: 13vw;
+    border: 1vw solid lightgrey;
+    border-radius: 2%;
+}
+
+.currentGithub {
+    position: absolute;
+    left: 15vw;
+    bottom: 1.5vw;
+    font-size: 1.2vw;
+}
+
+.currentDescription {
+    color: black;
+    font-size: .85vw;
+    background-color: lightgrey;
+    height: 11.8vw;
+    margin-top: 0px;
+    position: relative;
+    left: 23vw;
+    top: -15.65vw
+
+}
+
+#futureProjects {
+    font-size: 12px;
+    margin-top: 51.5vh;
+    margin-left: 2vw;
+}
+
+.futureDescription {
+    position: relative;
+    left: 7vw;
+    top: 1vw;
+    background-color: lightgrey;
+    border-radius: 2%;
+    border: 1vw solid lightgrey;
+    color: black;
+    font-size: 1vw;
+    width: 29vw;
+}
+
+#currentWorks, #futureProjects, #completedWorks, .serviceChild {
+    border-radius: 1%;
+    border: 2px solid black;
+    background-color: #484f5d;
+}
+
+.futureDescription a {
+    color: black;
+}
+
+.portfolioChild .subtitle h2 {
+    margin-left: 1.2vw;
+    margin-top: 0;
+    font-size: 2vw;
+}
+
+

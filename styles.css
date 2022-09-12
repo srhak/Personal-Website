@@ -1,25 +1,87 @@
-.header {
+.header2, .qualHeader, .header {
     text-align: center;
     margin-bottom: 0;
     background-color: #7c98b3;
     height: 25%;
 }
 
-#icons {
-    display: inline-block;
-    list-style: none;
-    position: relative;
-    left: -30px;
-    top: 5px;
+#back {
+    height: 125px;
+    margin-left: 0;
+    width: 25%;
+    position: absolute;
 }
 
+#back p {
+    color: whitesmoke;
+    position: relative;
+    top: -13px;
+    left: 90px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.backChild {
+    display: inline-block;
+}
+
+#back a {
+    text-decoration: none;
+}
+
+.headerChild {
+    position: relative;
+    display: inline-block;
+}
+
+#themeSwitch {
+    background-color: #accbe1;
+    color: #536b78;
+    width: 125px;
+    height: 35px;
+    border-radius: 10%;
+    top: -65px;
+}
+
+#name2, #technicalBody {
+    display: none;
+}
+
+#icons {
+    display: inline;
+    width: 60px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+}
+
+#icons img {
+    width: 45px;
+}
+
+#icon1, #icon2, #icon3 {
+    position: absolute;
+}
+
+#icon1 {
+    bottom: 96px;
+}
+
+#icon2 {
+    bottom: 0;
+    border-radius: 50%;
+}
+
+#icon3 {
+    bottom: 48px;
+}
 
 #profile {
     border-radius: 50%;
     border: 3px solid #536b78;
-    position: relative;
-    top: -2px;
-    margin-left: 7%;
+    top: 7px;
+    width: 150px;
 }
 
 h1 {
@@ -46,12 +108,14 @@ hr {
     margin: 0;
 }
 
+
 .landingArea {
     float: left;
-    margin-left: 8%;
-    margin-right: 6%;
-    margin-top: 90px;
-}
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5.5%;
+} 
 
 .landingAreaChild {
     display: inline-block;
@@ -69,7 +133,7 @@ hr {
 
 }
 
-#About {
+#aboutText {
     width: 60%;
     float: top;
     margin-right: 0;
@@ -78,7 +142,7 @@ hr {
     margin-left: 3%;
 }
 
-#About p {
+#aboutText p {
     background-color: #cee5f2;
     border-radius: 5%;
     padding: 6%;
@@ -94,6 +158,10 @@ hr {
     color: #536b78;
 }
 
+#hello2 {
+    display: none;
+}
+
 #menu {
     width:25%;
     border-radius: 5%;
@@ -106,12 +174,17 @@ hr {
     
 } 
 
-#name {
+#name1 {
     font-size: 75px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #536b78;
     letter-spacing: 5px;
+    white-space: pre;
+}
+
+#hand {
+    display: none;
 }
 
 .button {
@@ -141,8 +214,9 @@ hr {
 #qualifications, #portfolio, #service {
     height: 125px;
     margin: 0px;
-    position:relative;
+    position: relative;
     top: 30px;
+    display: inline-block;
 }
 
 .portfolioBody, .qualificationsBody, .serviceBody {
@@ -155,19 +229,45 @@ hr {
     display: inline-block;
 }
 
+#resumeBody {
+    width: 40%;
+    margin-bottom: 3%;
+}
+
+#resume {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 3px solid #536b78;
+}
+
+#resumeLink {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
 #monitor {
     float: right;
+    width: 50%;
+    height: 30%;
+}
+
+#underline {
+    text-decoration: underline;
 }
 
 #screen {
-    width: 622px;
-    height: 323px;
+    width: 36.5%;
+    height: 39%;
     background-color: lightgrey;
     position: absolute; 
-    left: 906px;
-    bottom: 242px;
+    left: 53.25%;
+    bottom: 29%;
     padding: 20px;
-    font-size: 35px;
+    font-size: 250%;
 }
 
 #screen p {
@@ -175,14 +275,14 @@ hr {
 }
 
 #screenTwo {
-    width: 622px;
-    height: 323px;
+    width: 36.5%;
+    height: 39%;
     background-color: lightgrey;
     position: absolute; 
-    left: 906px;
-    bottom: 242px;
+    left: 53.25%;
+    bottom: 29%;
     padding: 20px;
-    font-size: 30px;
+    font-size: 225%;
     display: none;
 }
 
@@ -191,28 +291,28 @@ hr {
 }
 
 #screenThree {
-    width: 622px;
-    height: 323px;
+    width: 36.5%;
+    height: 39%;
     background-color: lightgrey;
     position: absolute; 
-    left: 906px;
-    bottom: 242px;
+    left: 53.25%;
+    bottom: 29%;
     padding: 20px;
-    font-size: 19px;
+    font-size: 150%;
     display: none;
 }
 
 #screenThree p {
-    font-size: 20px;
+    font-size: 125%;
 }
 
 #offScreen {
-    width: 622px;
-    height: 323px;
+    width: 36.5%;
+    height: 39%;
     background-color: black;
     position: absolute; 
-    left: 906px;
-    bottom: 242px;
+    left: 53.25%;
+    bottom: 29%;
     padding: 20px;
     font-size: 19px;
     display: none;
@@ -228,30 +328,30 @@ button:hover {
 }
 
 .red {
-    width: 20px;
-    height: 20px;
+    width: 1.5%;
+    height: 3%;
     background-color: red;
     border-radius: 50%;
-    left: 1545px;
-    bottom: 208px;
+    left: 90.4%;
+    bottom: 25%;
 }
 
 .blue {
-    width: 15px;
-    height: 15px;
+    width: 1%;
+    height: 2.25%;
     background-color: blue;
     border-radius: 50%;
-    left: 1521px;
-    bottom: 210px;
+    left: 89.15%;
+    bottom: 25%;
 }
 
 .green {
-    width: 15px;
-    height: 15px;
+    width: 1%;
+    height: 2.25%;
     background-color: green;
     border-radius: 50%;
-    left: 1498px;
-    bottom: 210px;
+    left: 87.8%;
+    bottom: 25%;
 }
 
 .portfolioChild, .serviceChild {
@@ -307,13 +407,13 @@ button:hover {
     margin-top: 15%;
 }
 
-#bloodDrive img {
+#bloodDrive img, #buddyWalk img {
     margin-top: 10%;
     border-radius: 7%;
 }
 
 #buddyWalk img {
-    margin-top: 3%;
+    margin-top: 14%;
     border-radius: 7%;
 }
 

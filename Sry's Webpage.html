@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Sry's Webpage</title>
+            <link href="./Sry&#39;s Webpage_files/styles2.css" id="CSSLink" rel="stylesheet">
+            <script src="./Sry&#39;s Webpage_files/myScript.js.download"></script>
+    </head>
+    <body>
+        <div class="header">
+            <button onclick="switchCSS()" id="themeSwitch" class="headerChild">Switch Theme</button>
+            <img src="./Sry&#39;s Webpage_files/profile4.jpg" id="profile" class="headerChild">
+            <h1 id="name2" class="headerChild">Sry Hak</h1>
+            <!-- Find better/clearer icons -->
+            <section id="icons" class="headerChild">
+                <a href="https://www.linkedin.com/in/sry-hak-268766203/"> 
+                    <img src="./Sry&#39;s Webpage_files/Linkedin_Logo.png" id="icon1">
+                </a>
+                <a href="https://github.com/srhak"> 
+                    <img src="./Sry&#39;s Webpage_files/github-logo.png" id="icon2">
+                </a>
+                <a href="mailto:srhak2002@gmail.com"> 
+                    <img src="./Sry&#39;s Webpage_files/Gmail_Logo.png" id="icon3">
+                </a>
+            </section>
+        </div>
+        <hr>
+        <div class="landingArea">
+            <div id="menu" class="landingAreaChild">
+                <h2 id="name1"> Sry <br>Hak</h2>
+                <img id="hand" src="./Sry&#39;s Webpage_files/hand.png">
+                <article class="button" id="qualificationsButton">
+                    <a href="http://127.0.0.1:5500/qualifications.html">QUALIFICATIONS</a>
+                </article>
+                <article class="button" id="portfolioButton">
+                    <a href="http://127.0.0.1:5500/portfolio.html">PORTFOLIO</a>
+                </article>
+                <article class="button" id="serviceButton">
+                    <a href="http://127.0.0.1:5500/service.html">SERVICE</a>
+                </article>
+            </div>
+            <div id="aboutMe" class="landingAreaChild about">About Me</div>
+            <div id="aboutText" class="landingAreaChild about">
+                <h1 id="hello">Hello!</h1>
+                <p>
+                    <span id="hello2">Hello! <br><br>
+                    </span>
+                    My name is Sry Hak, and I am currently a third year undergraduate student studying Computer Science at Texas A&amp;M University. I am interested in software design and web development. I always knew that I liked coding ever since high school, but it was really the classes that I took in university that made me fall in love with the entire process of software development and everything that goes into creating a product that users interact with. 
+                    <br><br>
+                    My interest in web development and frontend engineering took root long ago – I remember spending hours upon hours perfecting infographics, presentations, and projects ever since grade school – but it really flourished with my internship this past summer. Because I interned at a start up, I had the wonderful opportunity of working in a small, close-knit group. Having this privilege, I was able to get experience with each part of the team. What stuck out to me the most throughout this experience was frontend engineering. I followed our frontend engineer and UX design specialist, and I found a lot of satisfaction in seeing how their efforts were directly seen and used by the user.
+                    <br><br>
+                    In addition to this, I am also interested in automation, artificial intelligence, and cybersecurity. My interest in artificial intelligence began in my first year of university when I joined the Discover AI/AI Summer Immersion program. This program introduced me to artificial intelligence, and ever since I have been wanting to learn more about this field. I was introduced to cybersecurity through Texas A&amp;M’s Cybersecurity club. Being part of this club has introduced me to the field, and I find everything I learned and all of their competitions and events (such as CTF – Capture the Flag) fun and interesting, so this is a field that I am currently learning more about and planning to continue to expand on.
+                </p>
+            </div>
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

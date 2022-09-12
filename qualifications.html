@@ -5,16 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qualifications</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" id="CSSLink" rel="stylesheet"/>
     <script src="myScript.js"></script>
 </head>
 <body>
-    <div class="header">
+    <div class="header2">
+        <h1 id="back">
+            <a class="backChild" href="index.html">
+                <p>About</p>
+            </a>
+            <a class="backChild" href="service.html">
+                <p>Service</p>
+            </a>
+            <a class="backChild" href="portfolio.html">
+                <p>Portfolio</p>
+            </a>
+        </h1>
         <h1 id="qualifications">QUALIFICATIONS</h1>
     </div>
     <hr>
     <div class="qualificationsBody">
-        <iframe class="qualificationsChild" id="resume" src="Resume.pdf" width="650px" height="625px" alt="Photo_of_Resume"></iframe>
+        <div class="qualificationsChild" id="resumeBody">
+            <img id="resume" src="ResumeImg.png" alt="Photo_of_Resume">
+            <a href="Resume.pdf" id="resumeLink" target="_blank">Download Resume</a>
+        </div>
         <img class="qualificationsChild" id="monitor" src="monitor.png" alt="monitorPic">
         <article id="screen">
             <h2 id="screenTitle">
@@ -24,6 +38,31 @@
                 Red = Power <br> Blue = Skills <br> Green = Areas of Interest
             </p>
         </article>
+        <div class="qualificationsChild" id="technicalBody">
+            <section id="techSkills">
+                <h1>Technical Skills</h1>
+                <ul id="skillContents">
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML, CSS, JavaScript 
+                        <br>&emsp; I learned these skills through 
+                        <a href="https://www.freecodecamp.org/">freeCodeCamp!</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="areasOfInterest">
+                <h1>Areas of Interest</h1>
+                <div id="interestContents">
+                    I am currently interested in the following:
+                    <ul>
+                        <li><span id="underline">Frontend/Web Development:</span> I enjoy seeing users directly interact with software that I've worked on</li>
+                        <li><span id="underline">Cybersecurity:</span> I enjoy what I've learned so far from Cybersecurity club, and I would love to expand my knowledge in this area</li>
+                        <li><span id="underline">Artificial Intelligence:</span> After taking apart in an introductory AI program, I am even more fascinated with the capitality and potential of machines.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
         <article id="screenTwo">
             <h2 id="screenTitle">
                 Skills
@@ -34,7 +73,7 @@
                     <li>C++</li>
                     <li>Python</li>
                     <li>HTML, CSS, JavaScript 
-                        <br>&emsp I learned these skills through 
+                        <br>&emsp; I learned these skills through 
                         <a href="https://www.freecodecamp.org/">freeCodeCamp!</a>
                     </li>
                 </ul>
@@ -47,9 +86,9 @@
             <p id="screenContent">
                 I am currently interested in the following:
                 <ul>
-                    <li>Frontend/Web Development: I enjoy seeing users directly interact with software that I've worked on</li>
-                    <li>Cybersecurity: I enjoy what I've learned so far from Cybersecurity club, and I would love to expand my knowledge in this area</li>
-                    <li>Artificial Intelligence: After taking apart in an introductory AI program, I am even more fascinated with the capitality and potential of machines.</li>
+                    <li><span id="underline">Frontend/Web Development:</span> I enjoy seeing users directly interact with software that I've worked on</li>
+                    <li><span id="underline">Cybersecurity:</span> I enjoy what I've learned so far from Cybersecurity club, and I would love to expand my knowledge in this area</li>
+                    <li><span id="underline">Artificial Intelligence:</span> After taking apart in an introductory AI program, I am even more fascinated with the capitality and potential of machines.</li>
                 </ul>
             </p>
         </article> 
