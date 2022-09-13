@@ -250,29 +250,30 @@ hr {
 }
 
 #resumeBody {
-    width: 40%;
-    margin-bottom: 3%;
+    width: 40vw;
+    margin-bottom: 3vh;
 }
 
 #resume {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    border: 3px solid #536b78;
+    border: .25vw solid #536b78;
 }
 
 #resumeLink {
     display: block;
     color: whitesmoke;
     text-align: center;
-    font-size: 20px;
-    margin-top: 2%;
+    font-size: 1.25vw;
+    margin-top: 1.5vh;
 }
 
 #monitor {
-    float: right;
-    width: 50%;
-    height: 30%;
+    margin-left: 3vw;
+    margin-bottom: 10vh;
+    width: 45vw;
+    height: 80vh;
 }
 
 #underline {
@@ -280,14 +281,14 @@ hr {
 }
 
 #screen {
-    width: 36.5%;
-    height: 39%;
+    width: 36.2vw;
+    height: 44vh;
     background-color: lightgrey;
     position: absolute; 
-    left: 53.25%;
-    bottom: 29%;
-    padding: 20px;
-    font-size: 250%;
+    left: 51.4vw;
+    bottom: 12.5vh;
+    padding: 1.2vw;
+    font-size: 2vw;
 }
 
 #screen p {
@@ -295,14 +296,14 @@ hr {
 }
 
 #screenTwo {
-    width: 36.5%;
-    height: 39%;
+    width: 36.2vw;
+    height: 44vh;
     background-color: lightgrey;
     position: absolute; 
-    left: 53.25%;
-    bottom: 29%;
-    padding: 20px;
-    font-size: 225%;
+    left: 51.4vw;
+    bottom: 12.5vh;
+    padding: 1.2vw;
+    font-size: 1.5vw;
     display: none;
 }
 
@@ -311,30 +312,29 @@ hr {
 }
 
 #screenThree {
-    width: 36.5%;
-    height: 39%;
+    width: 36.2vw;
+    height: 44vh;
     background-color: lightgrey;
     position: absolute; 
-    left: 53.25%;
-    bottom: 29%;
-    padding: 20px;
-    font-size: 150%;
+    left: 51.4vw;
+    bottom: 12.5vh;
+    padding: 1.2vw;
+    font-size: 1.1vw;
     display: none;
 }
 
 #screenThree p {
-    font-size: 125%;
+    font-size: 1.1vw;
 }
 
 #offScreen {
-    width: 36.5%;
-    height: 39%;
+    width: 36.2vw;
+    height: 44vh;
     background-color: black;
     position: absolute; 
-    left: 53.25%;
-    bottom: 29%;
-    padding: 20px;
-    font-size: 19px;
+    left: 51.4vw;
+    bottom: 12.5vh;
+    padding: 1.2vw;
     display: none;
 }
 
@@ -348,30 +348,30 @@ button:hover {
 }
 
 .red {
-    width: 1.5%;
-    height: 3%;
+    width: 1.75vw;
+    height: 1.75vw;
     background-color: red;
     border-radius: 50%;
-    left: 90.4%;
-    bottom: 25%;
+    left: 88vw;
+    bottom: 8.5vh;
 }
 
 .blue {
-    width: 1%;
-    height: 2.25%;
+    width: 1.1vw;
+    height: 1.1vw;
     background-color: blue;
     border-radius: 50%;
-    left: 89.15%;
-    bottom: 25%;
+    left: 86.9vw;
+    bottom: 8.8vh;
 }
 
 .green {
-    width: 1%;
-    height: 2.25%;
+    width: 1.1vw;
+    height: 1.1vw;
     background-color: green;
     border-radius: 50%;
-    left: 87.8%;
-    bottom: 25%;
+    left: 85.6vw;
+    bottom: 8.8vh;
 }
 
 .portfolioChild, .serviceChild {
