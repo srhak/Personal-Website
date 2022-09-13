@@ -234,15 +234,15 @@ hr {
 #qualifications, #portfolio, #service {
     height: 125px;
     margin: 0px;
-    position: relative;
     top: 30px;
+    position: relative;
     display: inline-block;
 }
 
 .portfolioBody, .qualificationsBody, .serviceBody {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    margin-top: 7vh;
 }
 
 .qualificationsChild {
@@ -378,10 +378,10 @@ button:hover {
     display: inline-block;
     border-radius: 5%;
     background-color: #cee5f2;
-    border: 2px solid #536b78;
-    height: 600px;
+    border: .15vw solid #536b78;
+    height: 71vh;
     text-align: center;
-    font-size: 17px;
+    font-size: 1vw;
 }
 
 #bigEvent {
@@ -438,105 +438,104 @@ button:hover {
 }
 
 #completedWorks {
-    width: 45%;
+    width: 41vw;
     position: relative;
-    top: -5px;
 }
 
 #completedWorks img {
     border-radius: 7.5%;
-    width: 250px;
-    height: 227px;
+    width: 14.5vw;
+    height: 27vh;
     position: relative;
-    padding: 10px;
+    padding: .6vw;
 }
 
 #currentWorks {
-    width: 25%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 21.5vw;
+    margin-left: 2.125vw;
+    margin-right: 2.125vw;
     position: relative;
-    top: -9px;
 }
 
 #currentWorks img {
     border-radius: 7.5%;
     position: relative;
-    padding: 10px;
-    width: 250px;
-    height: 227px;
+    padding: .6vw;
+    width: 14.5vw;
+    height: 27vh;
 }
 
 #futureProjects {
-    width: 24%;
-    position: relative;
-    top: -94px;
+    width: 21.5vw;
+    position: absolute;
 }
 
 .completedPreview {
     display: inline-block;
-    margin: 2.5%;
-    width: 275px;
-    height: 250px;
+    margin: 1vw;
+    margin-bottom: 3vh;
+    width: 16vw;
+    height: 29.5vh;
     border-radius: 5%;
     background-color: #7c98b3;
 }
 
 .currentPreview {
     display: inline-block;
-    margin: 2.5%;
-    width: 275px;
-    height: 250px;
+    margin: 1vw;
+    width: 16vw;
+    height: 29.5vh;
     border-radius: 5%;
     background-color: #7c98b3;
-    margin-bottom: 5%;
+    margin-bottom: 3vh;
 }
 
-.completedGithub {
-    margin-left: 10%;
-    margin-right: 10%;
+.completedGithub, .currentGithub {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: .85vw;
 }
 
 .completedDescription {
     display: inline-block;
-    margin: 2.5%;
-    width: 243px;
-    height: 143px;
+    margin: 1vw;
+    width: 14vw;
+    height: 16vh;
     border-radius: 5%;
     background-color: #7c98b3;
-    padding: 16px;
-    font-size: 18px;
+    padding: 1vw;
+    font-size: 1vw;
 }
 
 .currentDescription {
     display: inline-block;
-    margin: 2.5%;
+    margin: 1vw;
     margin-top: 5%;
-    width: 243px;
-    height: 148px;
+    width: 14vw;
+    height: 16vh;
     border-radius: 5%;
     background-color: #7c98b3;
-    padding: 16px;
-    font-size: 18px;
+    padding: 1vw;
+    font-size: 1vw;
 }
 
 .futureDescription {
-    margin: 7%;
+    margin-left: 2.25vw;
     background-color: #7c98b3;
-    padding: 2.5%;
     border-radius: 5%;
-    font-size: 18px;
-    padding: 25px;
+    font-size: 1.25vw;
+    padding: 1vw;
     position: relative;
-    top: 3%;
+    width: 15vw;
+    height: 54vh;
     text-align: center;
 }
 
 #recipeApp {
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 p {
-    font-size: 12px;
+    font-size: .75vw;
 }
 
