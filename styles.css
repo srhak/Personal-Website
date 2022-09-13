@@ -348,12 +348,12 @@ button:hover {
 }
 
 .red {
-    width: 1.75vw;
-    height: 1.75vw;
+    width: 1.5vw;
+    height: 1.5vw;
     background-color: red;
     border-radius: 50%;
-    left: 88vw;
-    bottom: 8.5vh;
+    left: 88.3vw;
+    bottom: 8.6vh;
 }
 
 .blue {
@@ -385,17 +385,19 @@ button:hover {
 }
 
 #bigEvent {
-    width: 30%;
-    margin-right: 4%;
+    width: 29%;
+    margin-right: 5%;
+    position: relative;
+    top: 1.75vh;
 }
 
 #bloodDrive {
-    width: 30%;
-    margin-right: 4%;
+    width: 29%;
+    margin-right: 5%;
 }
 
 #buddyWalk {
-    width: 30%;
+    width: 29%;
 }
 
 .serviceImages {
@@ -425,16 +427,19 @@ button:hover {
 
 #bigEvent img {
     margin-top: 15%;
+    width: 17vw;
 }
 
 #bloodDrive img, #buddyWalk img {
     margin-top: 10%;
     border-radius: 7%;
+    width: 17vw;
 }
 
 #buddyWalk img {
     margin-top: 14%;
     border-radius: 7%;
+    width: 17vw;
 }
 
 #completedWorks {

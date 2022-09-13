@@ -145,7 +145,7 @@ body {
     padding: 5%;
     position: relative;
     border: 2px solid black;
-    font-size: 15px;
+    font-size: .85vw;
     color: whitesmoke;
 }
 
@@ -274,11 +274,11 @@ a {
 }
 
 #techSkills {
-    font-size: 20px;
+    font-size: 1.1vw;
 }
 
 #interestContents {
-    font-size: 17px;
+    font-size: 1vw;
 }
 
 #skillContents, #interestContents {
@@ -378,7 +378,7 @@ a {
     background-color: lightgrey;
     width: 27vw;
     height: 19vh;
-    font-size: 18px;
+    font-size: 1.1vw;
     border-radius: 2%;
 }
 
